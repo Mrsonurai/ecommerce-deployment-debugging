@@ -1,0 +1,8 @@
+apiVersion: policy/v1
+kind: PodSecurityPolicy
+metadata:
+  name: restricted-psp
+spec:
+  privileged: false
+  allowPrivilegeEscalation: false
+  # ... (add other security configurations)
